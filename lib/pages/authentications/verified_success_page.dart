@@ -92,7 +92,9 @@ class VerifiedSuccessPage extends StatelessWidget {
                 ),
                 CustomSecondaryButton(
                   text: 'Get Started',
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushNamed(context, '/main');
+                  },
                 ),
                 const SizedBox(
                   height: 24,

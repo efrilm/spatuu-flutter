@@ -7,6 +7,8 @@ import 'package:spatuu/pages/authentications/sign_in_page.dart';
 import 'package:spatuu/pages/authentications/sign_up_page.dart';
 import 'package:spatuu/pages/authentications/verified_success_page.dart';
 import 'package:spatuu/pages/authentications/verify_code_page.dart';
+import 'package:spatuu/pages/home/home_page.dart';
+import 'package:spatuu/pages/home/main_page.dart';
 import 'package:spatuu/pages/splash_page.dart';
 
 void main() {
@@ -30,6 +32,8 @@ class MyApp extends StatelessWidget {
         '/confirm-pin': (context) => const ConfirmPinPage(),
         '/reset-password': (context) => const ResetPasswordPage(),
         '/create-new-password': (context) => const CreateNewPasswordPage(),
+        '/home': (context) => const HomePage(),
+        '/main': (context) => const MainPage(),
       },
     );
   }

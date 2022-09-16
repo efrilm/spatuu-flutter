@@ -188,7 +188,9 @@ class _SignInPageState extends State<SignInPage> {
         ),
         child: CustomButton(
           text: 'Sign In',
-          onTap: () {},
+          onTap: () {
+            Navigator.pushNamed(context, '/main');
+          },
         ),
       );
     }

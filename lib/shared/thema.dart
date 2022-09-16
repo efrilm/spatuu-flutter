@@ -9,6 +9,7 @@ const Color btnGoogleColor = Color(0xFF262832);
 const Color blackColor = Color(0xFF1D1E25);
 const Color otpColor = Color(0xFF1b1b1b);
 const Color secondaryBtnColor = Color(0xFF1b1b1a);
+const Color searchColor = Color(0xFF262626);
 
 FontWeight light = FontWeight.w300;
 FontWeight regular = FontWeight.w400;

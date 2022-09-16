@@ -190,7 +190,7 @@ class _ConfirmPinPageState extends State<ConfirmPinPage> {
               child: CustomButton(
                 text: "Confirm PIN Number",
                 onTap: () {
-                  Navigator.pushNamed(context, '/verified-success');
+                  Navigator.pushNamed(context, '/main');
                 },
               ),
             ),
