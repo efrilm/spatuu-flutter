@@ -10,6 +10,9 @@ const Color blackColor = Color(0xFF1D1E25);
 const Color otpColor = Color(0xFF1b1b1b);
 const Color secondaryBtnColor = Color(0xFF1b1b1a);
 const Color searchColor = Color(0xFF262626);
+const Color ratingColor = Color(0xFFFFAC0C);
+const Color redColor = Color(0xFFFF4E63);
+const Color dividerColor = Color(0xFF212121);
 
 FontWeight light = FontWeight.w300;
 FontWeight regular = FontWeight.w400;

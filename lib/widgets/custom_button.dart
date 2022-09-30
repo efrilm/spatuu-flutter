@@ -109,3 +109,46 @@ class CustomSecondaryButton extends StatelessWidget {
     );
   }
 }
+
+class CustomButtonWithIcon extends StatelessWidget {
+  const CustomButtonWithIcon({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 157,
+      height: 50,
+      child: TextButton(
+        style: TextButton.styleFrom(
+          backgroundColor: yellowColor,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(6),
+          ),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Add to Card',
+              style: interTextStyle.copyWith(
+                color: backgroundColor,
+                fontWeight: semiBold,
+              ),
+            ),
+            const SizedBox(
+              width: 6,
+            ),
+            Image.asset(
+              'assets/ic_cart.png',
+              width: 24,
+              color: backgroundColor,
+            ),
+          ],
+        ),
+        onPressed: () {},
+      ),
+    );
+  }
+}
